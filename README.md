@@ -4,8 +4,8 @@ meteor-loginWithPassword-TypeError
 Reproduction app for loginWithPassword TypeError in Meteor reported in [Issue 2327 ](https://github.com/meteor/meteor/issues/2327)
 
 
-How app was created
-===================
+Create app
+==========
 
 * meteor create loginWithPasswordTypeError
 * cd loginWithPasswordTypeError
@@ -18,9 +18,6 @@ How app was created
 Steps to reproduce TypeError
 ============================
 
-* git clone https://github.com/pwldp/meteor-loginWithPassword-TypeError
-* cd meteor-loginWithPassword-TypeError
-* meteor
 * open Mozilla Firefox (I use FF ver. 30.0 on Linux Ubuntu 14.04) on URL: http://127.0.0.1:3000
 * open WWW Console
 * run code in console: `Meteor.loginWithPassword('admin','password',function(err,res){if (err) console.log("Error: "+err);});`
