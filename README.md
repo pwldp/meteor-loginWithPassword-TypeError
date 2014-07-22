@@ -7,24 +7,23 @@ Reproduction app for loginWithPassword TypeError in Meteor
 How app was created
 ===================
 
-meteor create loginWithPasswordTypeError
-cd loginWithPasswordTypeError
-meteor add accounts-password
-meteor remove insecure
-meteor remove autopublish
-meteor
+* meteor create loginWithPasswordTypeError
+* cd loginWithPasswordTypeError
+* meteor add accounts-password
+* meteor remove insecure
+* meteor remove autopublish
+* meteor
 
 
 Steps to reproduce TypeError
 ============================
 
-git clone https://github.com/pwldp/meteor-loginWithPassword-TypeError
-cd meteor-loginWithPassword-TypeError
-meteor
-open Mozilla Firefox on site http://127.0.0.1:3000
-open WWW Console
-run in console code:
-Meteor.loginWithPassword('admin','password',function(err,res){if (err) console.log("Error: "+err);});
+* git clone https://github.com/pwldp/meteor-loginWithPassword-TypeError
+* cd meteor-loginWithPassword-TypeError
+* meteor
+* open Mozilla Firefox on site http://127.0.0.1:3000
+* open WWW Console
+* run in console code: `Meteor.loginWithPassword('admin','password',function(err,res){if (err) console.log("Error: "+err);});`
 
 And see in console log:
 
