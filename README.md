@@ -1,7 +1,7 @@
 meteor-loginWithPassword-TypeError
 ==================================
 
-Reproduction app for loginWithPassword TypeError in Meteor
+Reproduction app for loginWithPassword TypeError in Meteor reported in [Issue 2327 ](https://github.com/meteor/meteor/issues/2327)
 
 
 How app was created
