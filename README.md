@@ -21,7 +21,7 @@ Steps to reproduce TypeError
 * git clone https://github.com/pwldp/meteor-loginWithPassword-TypeError
 * cd meteor-loginWithPassword-TypeError
 * meteor
-* open Mozilla Firefox on site http://127.0.0.1:3000
+* open Mozilla Firefox (I use FF ver. 30.0 on Linux Ubuntu 14.04) on URL: http://127.0.0.1:3000
 * open WWW Console
 * run code in console: `Meteor.loginWithPassword('admin','password',function(err,res){if (err) console.log("Error: "+err);});`
 
