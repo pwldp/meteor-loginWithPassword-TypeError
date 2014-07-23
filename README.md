@@ -10,8 +10,6 @@ Create app
 * meteor create loginWithPasswordTypeError
 * cd loginWithPasswordTypeError
 * meteor add accounts-password
-* meteor remove insecure
-* meteor remove autopublish
 * meteor
 
 
