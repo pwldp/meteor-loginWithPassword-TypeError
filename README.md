@@ -26,3 +26,10 @@ And see in console log:
 - undefined
 - TypeError: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create meteor.js:451
 - "Error: Error: User not found [403]"
+
+
+
+See screenshot below:
+
+![TypeError screenshot:](loginWithPassword-TypeError.jpg?raw=true "TypeError screenshot")
+
