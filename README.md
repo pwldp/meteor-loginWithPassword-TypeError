@@ -18,7 +18,8 @@ Steps to reproduce TypeError
 
 * open Mozilla Firefox (I use FF ver. 30.0 on Linux Ubuntu 14.04) on URL: http://127.0.0.1:3000
 * open WWW Console (Ctrk+Shift+K)
-* run code in console: `Meteor.loginWithPassword('admin','password',function(err,res){if (err) console.log("Error: "+err);});`
+* run code: `Meteor.loginWithPassword('admin','password',function(err,res){if (err) console.log("Error: "+err);});` from command line located in bootom part of console, not in scratchpad - its important.
+
 
 And see in console log:
 
